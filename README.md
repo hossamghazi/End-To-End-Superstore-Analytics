@@ -42,10 +42,33 @@ Superstore-Sales-Analytics/
 - Visualize revenue, profit, product categories, customer segments, and regional performance  
 
 ### 2️⃣ SQL – KPI Calculation & Aggregation
-- Use the cleaned dataset from Python as input  
-- Calculate key metrics such as Revenue, Profit, and Profit Margin  
-- Aggregate sales by Region, Product Category, and Customer Segment  
-- Prepare tables for dashboard visualization  
+#1. What percentage of total orders were shipped on the same date?
+
+#2. Name top 3 customers with highest total value of orders.
+
+#3. Find the top 5 items with the highest average sales per day.
+
+#4. Write a query to find the average order value for each customer, and rank the customers by their average order value.
+
+#5. Give the name of customers who ordered highest and lowest orders from each city.
+
+#6. What is the most demanded sub-category in the west region?
+
+#7. Which order has the highest number of items? And which order has the highest cumulative value?
+
+#8. Which order has the highest cumulative value?
+
+#9. Which segment’s order is more likely to be shipped via first class?
+
+#10. Which city is least contributing to total revenue?
+
+#11. What is the average time for orders to get shipped after order is placed?
+
+#12. Which segment places the highest number of orders from each state and which segment places the largest individual orders from each state?
+
+#13. Find all the customers who individually ordered on 3 consecutive days where each day’s total order was more than 50 in value. **
+
+#14. Find the maximum number of days for which total sales on each day kept rising.
 
 ### 3️⃣ Power BI Dashboard – Business Insights
 - Build interactive dashboards using **Power BI**  

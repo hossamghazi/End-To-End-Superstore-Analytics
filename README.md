@@ -1,3 +1,5 @@
+![image alt](https://github.com/hossamghazi/End-To-End-Superstore-Analytics/blob/fb23d17c41484f8f25d9302c3c3544fb980426b0/Super%20store%20Coverr.jpg)
+
 # Superstore Sales Analytics
 
 ## Overview

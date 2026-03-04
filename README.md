@@ -10,12 +10,16 @@ The goal is to uncover sales trends, profitability drivers, customer behavior, a
 ## Project Structure
 
 Superstore-Sales-Analytics
-
   ── Data
+  
   ── Analysis
+  
   ── SQL
+  
   ── Dashboard
+  
   ── Insights
+  
 
 ## Tools & Technologies
 - **Python**: Data cleaning, preprocessing, exploratory data analysis (Pandas, Matplotlib, Seaborn)  
@@ -99,4 +103,3 @@ Hassam Ghazi
 Data Analyst | Business Intelligence Enthusiast
 
 
-![image alt](https://github.com/hossamghazi/End-To-End-Superstore-Analytics/blob/main/Super%20store%20Coverr.jpg?raw=true)

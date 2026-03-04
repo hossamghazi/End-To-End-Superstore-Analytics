@@ -9,21 +9,13 @@ The goal is to uncover sales trends, profitability drivers, customer behavior, a
 
 ## Project Structure
 
+Superstore-Sales-Analytics
 
-Superstore-Sales-Analytics/
-│
-├── data/ # Raw & cleaned datasets
-│ └── superstore.csv
-├── python/ # Python scripts & notebooks for cleaning & EDA
-│ └── data_cleaning_eda.ipynb
-├── sql/ # SQL queries for KPI calculation & aggregation
-│ └── analysis_queries.sql
-├── dashboard/ # Power BI dashboard files
-│ └── superstore_dashboard.pbix
-└── README.md
-
-
----
+  ── Data
+  ── Analysis
+  ── SQL
+  ── Dashboard
+  ── Insights
 
 ## Tools & Technologies
 - **Python**: Data cleaning, preprocessing, exploratory data analysis (Pandas, Matplotlib, Seaborn)  

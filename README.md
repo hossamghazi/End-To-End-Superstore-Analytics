@@ -1,45 +1,27 @@
 ![image alt](https://github.com/hossamghazi/End-To-End-Superstore-Analytics/blob/fb23d17c41484f8f25d9302c3c3544fb980426b0/Super%20store%20Coverr.jpg)
 
-# Superstore Sales Analytics
+# 🛒 US Superstore Sales & KPI Analysis
 
-## Overview
-End-to-end retail sales analysis project using **Python, SQL, and an interactive Power BI dashboard**.  
-The project follows a complete data analytics workflow: from **data cleaning and exploration** to **KPI calculation** and **business insights visualization**.  
-The goal is to uncover sales trends, profitability drivers, customer behavior, and regional performance insights to support **data-driven business decisions**.
+## 📌 Project Overview
 
----
-
-## Project Structure
-
-Superstore-Sales-Analytics
-  ── Data
-  
-  ── Analysis
-  
-  ── SQL
-  
-  ── Dashboard
-  
-  ── Insights
-  
-
-## Tools & Technologies
-- **Python**: Data cleaning, preprocessing, exploratory data analysis (Pandas, Matplotlib, Seaborn)  
-- **SQL**: Aggregation, KPI calculation, business metric extraction  
-- **Power BI**: Interactive dashboard for data visualization and insights  
-- **Dataset**: Superstore Sales Data
+This project analyzes sales data of a US-based Superstore to extract key performance indicators (KPIs) and transform raw data into actionable business insights.
 
 ---
 
-## Workflow
+## 🔄 Project Workflow
 
-### 1️⃣ Python – Data Cleaning & EDA
-- Import dataset and handle missing or incorrect values  
-- Convert data types and clean raw data  
-- Perform exploratory data analysis (EDA) to understand trends and patterns  
-- Visualize revenue, profit, product categories, customer segments, and regional performance  
+### 1️⃣ Data Cleaning (Python – Pandas)
 
-### 2️⃣ SQL – KPI Calculation & Aggregation
+- Handled missing values
+- Removed duplicates
+- Standardized dates and categories
+- Corrected data types for accurate calculations
+- Validated revenue and profit computations
+
+### 2️⃣ KPI & Business Analysis (SQL)
+
+Key metrics calculated include:
+
 #1. What percentage of total orders were shipped on the same date?
 
 #2. Name top 3 customers with highest total value of orders.
@@ -68,40 +50,118 @@ Superstore-Sales-Analytics
 
 #14. Find the maximum number of days for which total sales on each day kept rising.
 
-### 3️⃣ Power BI Dashboard – Business Insights
-- Build interactive dashboards using **Power BI**  
-- Visualize key KPIs and trends:  
-  - Top Products & Categories  
-  - Regional Sales Trends  
-  - Profit Analysis  
-  - Customer Segmentation Insights  
-- Provide actionable insights for data-driven decision making
+---
+
+## 📊 Key Performance Indicators
+
+- Same-Day Delivery Rate: **5%**
+- Highest Customer Average Order Value: **$1,751.29**
+- Largest Order Quantity: **14 items**
+- Highest Single Order Profit: **$23,661**
+- Average Shipping Duration: **3 days**
+- Top Revenue & Order Volume State: **California**
+- Lowest Revenue City: **Abilene**
+- Top Sub-Categories in West Region:
+  - Binders
+  - Paper
+  - Furnishings
 
 ---
 
-## Usage Instructions
-1. Clone the repository:
-```bash
-git clone <your-repo-link>
+## 💡 Strategic Business Insights
 
-Navigate to the project folder:
+### 1️⃣ Revenue Concentration in California
 
-cd Superstore-Sales-Analytics
+California accounts for the highest number of orders and nearly double the volume of the second-ranked state.
 
-Explore Python notebook in python/ for data cleaning and EDA
+**Insight:**  
+The business is heavily dependent on a single market, creating potential revenue risk if demand drops.
 
-Run SQL queries in sql/analysis_queries.sql
+**Recommendation:**  
+Expand growth strategy into other states to reduce dependence on one region.
 
-Open the Power BI dashboard in dashboard/superstore_dashboard.pbix
+---
 
-Contribution
+### 2️⃣ Delivery Performance
 
+Only 5% of orders are delivered on the same day, with an average delivery time of 3 days.
 
-Contributions are welcome! Feel free to open an issue or submit a pull request.
+**Insight:**  
+There is an opportunity to enhance same-day delivery, especially in high-demand markets.
 
-Author
+**Recommendation:**  
+Evaluate feasibility of expanding same-day delivery in top states like California.
 
+---
+
+### 3️⃣ High-Value Customer Segment
+
+Top customer’s average order value: **$1,751.29**
+
+**Insight:**  
+A premium customer segment contributes disproportionately to total revenue.
+
+**Recommendation:**  
+Implement loyalty programs or exclusive offers to retain high-value customers and increase lifetime value.
+
+---
+
+### 4️⃣ West Region Product Demand
+
+Top sub-categories: Binders, Paper, Furnishings
+
+**Insight:**  
+Strong demand for office-related products indicates a high concentration of business/home-office customers.
+
+**Recommendation:**  
+Run targeted campaigns and bundle promotions for these categories in the West region.
+
+---
+
+### 5️⃣ High-Profit Transaction Potential
+
+Highest single order profit: **$23,661**
+
+**Insight:**  
+Certain orders generate exceptional margins, showing potential for replicating profitable product mixes.
+
+**Recommendation:**  
+Analyze product composition of high-profit orders to replicate success.
+
+---
+
+### 6️⃣ Low-Performing Market – Abilene
+
+Abilene shows the lowest revenue among all cities.
+
+**Insight:**  
+Market penetration or marketing efforts may be weak in this city.
+
+**Recommendation:**  
+Reassess marketing investment or operational viability in low-performing locations.
+
+---
+
+## 🛠️ Tech Stack
+
+- Python (Pandas) – Data Cleaning
+- SQL – KPI Calculations
+- Power BI – Dashboard & Visualization
+- CSV Dataset – Data Source
+
+---
+
+## 📈 Business Impact
+
+This project demonstrates the ability to:
+
+- Clean and prepare raw data for analysis
+- Extract KPIs using SQL
+- Translate metrics into executive-level insights
+- Identify revenue concentration risk
+- Analyze high-value customer segments
+- Provide strategic, data-driven recommendations
+- Build interactive dashboards for decision support
+
+auther
 Hassam Ghazi
-Data Analyst | Business Intelligence Enthusiast
-
-

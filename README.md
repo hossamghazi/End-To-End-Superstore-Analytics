@@ -98,9 +98,13 @@ Open the Power BI dashboard in dashboard/superstore_dashboard.pbix
 
 Contribution
 
+
 Contributions are welcome! Feel free to open an issue or submit a pull request.
 
 Author
 
 Hassam Ghazi
 Data Analyst | Business Intelligence Enthusiast
+
+
+![image alt](https://github.com/hossamghazi/End-To-End-Superstore-Analytics/blob/main/Super%20store%20Coverr.jpg?raw=true)
